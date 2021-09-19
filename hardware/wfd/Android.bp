@@ -1,0 +1,16 @@
+cc_library {
+    name: "libwfdshim",
+    shared_libs: [
+        "libhwui",
+        "libinput",
+        "libgui",
+        "libaudioclient",
+    ],
+    header_libs: [
+        "libmedia_headers",
+        "libmediametrics_headers",
+    ],
+    srcs: [
+        "wfd_shim.cpp",
+    ],
+}

@@ -193,7 +193,8 @@ PRODUCT_PACKAGES += \
 
 # WIFI DISPLAY
 PRODUCT_PACKAGES += \
-    vendor.display.config@1.3
+    vendor.display.config@1.3 \
+    libwfdshim
 
 ### TETHERING
 PRODUCT_PACKAGES += \
